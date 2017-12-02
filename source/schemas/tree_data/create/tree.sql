@@ -3,6 +3,8 @@ create table tree_data.tree (
     location_id		integer not null references tree_data.tree_location(id),
     species_id		integer not null references tree_data.tree_species(id),
     type_id			integer not null references tree_data.tree_type(id),
+    coords_x		real not null,
+    coords_y		real not null,
     --
     cre_dat			timestamp,
     mod_dat			timestamp,
