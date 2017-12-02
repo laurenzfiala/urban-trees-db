@@ -12,8 +12,8 @@ create table tree_data.phenology_observation (
     observation_object_id	integer references tree_data.phenology_observation_object(id),
     observation_result_id	integer references tree_data.phenology_observation_result(id),
     --
-    cre_dat				timestamp,
-    mod_dat				timestamp,
-    cre_usr				varchar(20),
-    mod_usr				varchar(20)
+    cre_dat				timestamp not null,
+    mod_dat				timestamp not null,
+    cre_usr				varchar(20) not null,
+    mod_usr				varchar(20) not null
 );

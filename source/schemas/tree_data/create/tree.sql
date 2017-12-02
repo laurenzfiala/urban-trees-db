@@ -6,8 +6,8 @@ create table tree_data.tree (
     coords_x		real not null,
     coords_y		real not null,
     --
-    cre_dat			timestamp,
-    mod_dat			timestamp,
-    cre_usr			varchar(20),
-    mod_usr			varchar(20)
+    cre_dat			timestamp not null,
+    mod_dat			timestamp not null,
+    cre_usr			varchar(20) not null,
+    mod_usr			varchar(20) not null
 );

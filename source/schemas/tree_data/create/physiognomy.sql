@@ -1,5 +1,7 @@
 /**
  * Physiognomy data for a tree.
+ * 
+ * All measurements in this table are stored in centimeters (cm).
  */
 
 create table tree_data.physiognomy (
@@ -7,12 +9,12 @@ create table tree_data.physiognomy (
     tree_id				integer references tree_data.tree(id),
     tree_height			integer not null,
     stem_circumference	integer not null,
-    crown_start_height	integer not null,
-    crown_width			integer not null,
-    observe_dat			timestamp,
+    crown_start_height	integer not null,		-- height of crown edge
+    crown_width			integer not null, 		-- max width of crown
+    observe_dat			timestamp not null,
     --
-    cre_dat				timestamp,
-    mod_dat				timestamp,
-    cre_usr				varchar(20),
-    mod_usr				varchar(20)
+    cre_dat				timestamp not null,
+    mod_dat				timestamp not null,
+    cre_usr				varchar(20) not null,
+    mod_usr				varchar(20) not null
 );

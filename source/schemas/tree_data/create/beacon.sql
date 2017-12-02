@@ -10,8 +10,8 @@ create table tree_data.beacon (
     tree_id				integer references tree_data.tree(id),
     bluetooth_address	varchar(20) not null,
     --
-    cre_dat				timestamp,
-    mod_dat				timestamp,
-    cre_usr				varchar(20),
-    mod_usr				varchar(20)
+    cre_dat				timestamp not null,
+    mod_dat				timestamp not null,
+    cre_usr				varchar(20) not null,
+    mod_usr				varchar(20) not null
 );
