@@ -140,7 +140,7 @@ city_id: integer<y:LabelModel>
 tree_id: integer
 seed_age: integer
 age_description: varchar(12)?
-date: timestamp<y:LabelModel>
+observe_dat: timestamp<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
             </y:LabelModel>
             <y:ModelParameter>
