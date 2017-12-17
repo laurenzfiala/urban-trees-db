@@ -7,7 +7,7 @@
 
 cat \
 tree_species.sql \
-tree_type.sql \
+tree_genus.sql \
 city.sql \
 tree_location.sql \
 tree.sql \
