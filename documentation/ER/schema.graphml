@@ -47,12 +47,10 @@ observe_dat: timestamp<y:LabelModel>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="28.673828125" x="42.6630859375" y="4.0">Tree</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="104.734375" x="2.0" y="30.701171875">ID: integer
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="62.8046875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="104.734375" x="2.0" y="30.701171875">ID: integer
 location_id: integer
 species_id: integer
-genus_id: integer
-coords_x: real
-coords_y: real<y:LabelModel>
+genus_id: integer<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -68,7 +66,7 @@ coords_y: real<y:LabelModel>
     <node id="n2">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="120.0" x="789.1666666666666" y="415.25"/>
+          <y:Geometry height="90.0" width="120.0" x="789.1666666666666" y="438.75"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="78.0390625" x="20.98046875" y="4.0">Tree_Species</y:NodeLabel>
@@ -89,7 +87,7 @@ species: varchar(50)<y:LabelModel>
     <node id="n3">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="120.00000000000011" x="789.1666666666665" y="308.25"/>
+          <y:Geometry height="90.0" width="120.00000000000011" x="789.1666666666665" y="331.75"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.703125" x="24.6484375" y="4.0">Tree_Genus</y:NodeLabel>
@@ -110,11 +108,13 @@ genus: varchar(50)<y:LabelModel>
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="120.00000000000006" x="789.1666666666665" y="201.25"/>
+          <y:Geometry height="111.0" width="120.00000000000006" x="789.1666666666665" y="203.75"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.716796875" x="19.6416015625" y="4.0">Tree_Location</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="102.033203125" x="2.0" y="30.701171875">ID: integer
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="102.033203125" x="2.0" y="30.701171875">ID: integer
+coords_x: real
+coords_y: real
 street: varchar(50)
 city_id: integer<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
@@ -313,7 +313,7 @@ type: varchar(50)<y:LabelModel>
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="120.00000000000006" x="925.333333333333" y="201.25"/>
+          <y:Geometry height="90.0" width="120.00000000000006" x="925.333333333333" y="203.75"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="24.666015625" x="47.6669921875" y="4.0">City</y:NodeLabel>
@@ -345,7 +345,7 @@ name: varchar(50)<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="4.833333333333371" sy="-22.75" tx="0.0" ty="0.0">
-            <y:Point x="665.0" y="246.25"/>
+            <y:Point x="665.0" y="259.25"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one"/>
@@ -357,7 +357,7 @@ name: varchar(50)<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-43.749999999999886" sy="19.5" tx="0.0" ty="0.0">
-            <y:Point x="616.4166666666667" y="460.25"/>
+            <y:Point x="616.4166666666667" y="483.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one"/>
@@ -369,7 +369,7 @@ name: varchar(50)<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-18.749999999999886" sy="2.0" tx="0.0" ty="0.0">
-            <y:Point x="641.4166666666667" y="353.25"/>
+            <y:Point x="641.4166666666667" y="376.75"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one"/>
@@ -479,7 +479,7 @@ name: varchar(50)<y:LabelModel>
     <edge id="e13" source="n4" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="38.833333333333485" sy="0.25" tx="-38.33333333333303" ty="3.25">
+          <y:Path sx="38.833333333333485" sy="0.3083333333333333" tx="-38.33333333333303" ty="3.25">
             <y:Point x="888.0" y="173.5"/>
             <y:Point x="947.0" y="173.5"/>
           </y:Path>
