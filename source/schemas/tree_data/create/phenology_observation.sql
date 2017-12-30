@@ -1,6 +1,8 @@
 /**
  * One entry in this tables, means one oberservation of 
  * (tree) element "observation_object_id" with result "observation_result_id".
+ *
+ * It is only allowed to enter one unique observation object per phenology_observation.
  * 
  * See tables for more info:
  * tree_data.phenology_observation_object and tree_data.phenology_observation_result.
@@ -15,5 +17,7 @@ create table tree_data.phenology_observation (
     cre_dat				timestamp not null,
     mod_dat				timestamp not null,
     cre_usr				varchar(20) not null,
-    mod_usr				varchar(20) not null
+    mod_usr				varchar(20) not null,
+	--
+	unique (phenology_id, observation_object_id)
 );
