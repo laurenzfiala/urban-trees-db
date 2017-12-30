@@ -11,7 +11,7 @@ create table tree_data.physiognomy (
     trunk_circumference	integer not null,
     crown_base			integer not null,		-- height of crown base
     crown_width			integer not null, 		-- max width of crown
-    observe_dat			timestamp not null,
+    observe_dat			timestamp not null unique,
     --
     cre_dat				timestamp not null,
     mod_dat				timestamp not null,

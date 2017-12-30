@@ -7,7 +7,7 @@ create table tree_data.beacon_data (
     beacon_id		integer references tree_data.beacon(id),
     humidity		real,
     temperature		real,
-    observe_dat		timestamp not null,
+    observe_dat		timestamp not null unique,
     --
     cre_dat				timestamp not null,
     mod_dat				timestamp not null,
