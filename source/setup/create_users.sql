@@ -1,7 +1,7 @@
 /*
- * User creation and group assignment.
+ * User creation and group assignment samples.
  */
 
-create user "lfiala" with encrypted password 'demo' in group superusers;
+create user "demo" with encrypted password 'demo' in group superusers;
 
-create user "test" with encrypted password 'demo' in group users;
+create user "demo2" with encrypted password 'demo' in group users;
