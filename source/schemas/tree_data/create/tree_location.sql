@@ -3,7 +3,7 @@ create table tree_data.tree_location (
 	coords_x		real not null,
     coords_y		real not null,
     street			varchar(50) not null,
-    city_id			integer references city(id),
+    city_id			integer references tree_data.city(id),
     --
     cre_dat			timestamp not null,
     mod_dat			timestamp not null,

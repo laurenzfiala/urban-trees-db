@@ -6,8 +6,8 @@
 # If a new table is added, please add it here as well.
 
 cat \
-tree_species.sql \
 tree_genus.sql \
+tree_species.sql \
 city.sql \
 tree_location.sql \
 tree.sql \
@@ -20,4 +20,5 @@ phenology_observation_type.sql \
 phenology_observation_object.sql \
 phenology_observation_result.sql \
 phenology_observation.sql \
+phenology_observation_type_species.sql \
 > _tree_data_create_script.sql

@@ -6,8 +6,8 @@
 # If a new table is added, please add it here as well.
 
 cat \
-tree_species.sql \
 tree_genus.sql \
+tree_species.sql \
 city.sql \
 tree_location.sql \
 tree.sql \
