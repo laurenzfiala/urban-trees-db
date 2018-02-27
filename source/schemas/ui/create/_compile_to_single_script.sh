@@ -7,4 +7,5 @@
 
 cat \
 phenology_observation_result_img.sql \
+announcement.sql \
 > _ui_create_script.sql

@@ -8,6 +8,7 @@ create table tree_data.phenology (
     tree_id				integer references tree_data.tree(id),
     observers			varchar(200) not null, 			-- name of observing person(s)
     observe_dat			timestamp not null unique,		-- unique observation time
+	user_remark			varchar(350) null,				-- users' additional remarks	
     --
     cre_dat				timestamp not null,
     mod_dat				timestamp not null,

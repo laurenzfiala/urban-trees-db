@@ -3,10 +3,12 @@ create table tree_data.tree_age (
     tree_id						integer references tree_data.tree(id),
     plantation_year				integer not null,
     is_plantation_year_estimate	varchar(12) not null,
-	observe_dat					timestamp not null unique,
+	observe_dat					timestamp not null,
     --
     cre_dat			timestamp not null,
     mod_dat			timestamp not null,
     cre_usr			varchar(20) not null,
-    mod_usr			varchar(20) not null
+    mod_usr			varchar(20) not null,
+	--
+	unique (tree_id, observe_dat)
 );
