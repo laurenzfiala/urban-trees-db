@@ -108,13 +108,14 @@ genus: varchar(50)<y:LabelModel>
     <node id="n4">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="111.0" width="120.00000000000006" x="789.1666666666665" y="203.75"/>
+          <y:Geometry height="125.0" width="173.75000000000006" x="789.1666666666665" y="179.18499999999997"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.716796875" x="19.6416015625" y="4.0">Tree_Location</y:NodeLabel>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="102.033203125" x="2.0" y="30.701171875">ID: integer
-coords_x: real
-coords_y: real
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.716796875" x="46.5166015625" y="4.0">Tree_Location</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="166.744140625" x="2.0" y="30.70117187499997">ID: integer
+coords_x: double precision
+coords_y: double precision
+coords_projection: varchar(20)
 street: varchar(50)
 city_id: integer<y:LabelModel>
               <y:ErdAttributesNodeLabelModel/>
@@ -132,7 +133,7 @@ city_id: integer<y:LabelModel>
     <node id="n5">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="111.0" width="210.52113372781048" x="789.1666666666665" y="49.75"/>
+          <y:Geometry height="111.0" width="210.52113372781048" x="789.1666666666665" y="14.619999999999948"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="55.369140625" x="77.5759965514053" y="4.0">Tree_age</y:NodeLabel>
@@ -315,7 +316,7 @@ type: varchar(50)<y:LabelModel>
     <node id="n13">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-          <y:Geometry height="90.0" width="120.00000000000006" x="925.333333333333" y="203.75"/>
+          <y:Geometry height="90.0" width="120.00000000000006" x="977.1733333333332" y="179.18499999999997"/>
           <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="24.666015625" x="47.6669921875" y="4.0">City</y:NodeLabel>
@@ -357,7 +358,7 @@ TYPE_ID: integer<y:LabelModel>
     <edge id="e0" source="n1" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="-3.6772335305718116" ty="35.13000000000005"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_one" target="crows_foot_many_optional"/>
           <y:BendStyle smoothed="false"/>
@@ -368,7 +369,7 @@ TYPE_ID: integer<y:LabelModel>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="4.833333333333371" sy="-22.75" tx="0.0" ty="0.0">
-            <y:Point x="665.0" y="259.25"/>
+            <y:Point x="665.0" y="241.68499999999997"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one"/>
@@ -504,9 +505,9 @@ TYPE_ID: integer<y:LabelModel>
     <edge id="e13" source="n4" target="n13">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="38.833333333333485" sy="0.3083333333333333" tx="-38.33333333333303" ty="3.25">
-            <y:Point x="888.0" y="173.5"/>
-            <y:Point x="947.0" y="173.5"/>
+          <y:Path sx="56.22743055555577" sy="0.3472222222222222" tx="-38.33333333333303" ty="3.25">
+            <y:Point x="932.2690972222223" y="154.29999999999995"/>
+            <y:Point x="998.8400000000001" y="154.29999999999995"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one"/>

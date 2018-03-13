@@ -46,7 +46,7 @@ alt_text: varchar(50)<y:LabelModel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.724609375" x="60.663396775914634" y="4.0">Announcement</y:NodeLabel>
           <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="92.20703125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="157.3984375" x="2.0" y="30.701171875">ID: integer
 title: varchar(100)
-description: varchar(200)
+description: varchar(350)
 severity: smallint
 display_from_dat: timestamp
 display_to_dat: timestamp<y:LabelModel>
