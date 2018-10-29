@@ -11,4 +11,4 @@ user.sql \
 role.sql \
 user_role.sql \
 settings.sql \
-> _access_data_create_script.sql
+> _access_data_insert_script.sql

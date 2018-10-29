@@ -14,6 +14,7 @@ tree.sql \
 tree_age.sql \
 beacon.sql \
 beacon_data.sql \
+beacon_settings.sql \
 physiognomy.sql \
 phenology.sql \
 phenology_observation_type.sql \

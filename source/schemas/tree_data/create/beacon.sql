@@ -15,3 +15,5 @@ create table tree_data.beacon (
     cre_usr				varchar(20) not null,
     mod_usr				varchar(20) not null
 );
+
+create index tree_data_beacon_tree_id_index ON tree_data.beacon(tree_id);
