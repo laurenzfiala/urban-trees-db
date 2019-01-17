@@ -7,4 +7,7 @@
 
 cat \
 phenology_img.sql \
+level.sql \
 > _user_data_create_script.sql
+
+echo >> _user_data_create_script.sql;

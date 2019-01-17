@@ -24,3 +24,5 @@ phenology_observation_result.sql \
 phenology_observation.sql \
 phenology_observation_type_species.sql \
 > _tree_data_create_script.sql
+
+echo >> _tree_data_create_script.sql;

@@ -10,4 +10,6 @@ cat \
 create_database.sql \
 create_groups.sql \
 create_schemas.sql \
-> _urban_trees_setup_script.sql
+> _urban_trees_setup_script.sql;
+
+echo >> _urban_trees_setup_script.sql;

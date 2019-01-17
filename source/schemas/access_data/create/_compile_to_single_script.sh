@@ -12,3 +12,5 @@ role.sql \
 user_role.sql \
 settings.sql \
 > _access_data_create_script.sql
+
+echo >> _access_data_create_script.sql;
