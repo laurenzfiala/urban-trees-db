@@ -16,7 +16,7 @@ create table tree_data.beacon_settings (
     phys_button_enabled		boolean			    not null,
     temperature_calibration	double precision    not null,
     humidity_calibration	double precision    not null,
-    logging_interval_min	integer			    not null,
+    logging_interval_sec	integer			    not null,
     sensor_interval_sec		integer			    not null,
     adv_freq_ms				integer			    not null,
     pin						integer			    not null,
