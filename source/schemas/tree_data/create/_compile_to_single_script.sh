@@ -9,7 +9,7 @@ cat \
 tree_genus.sql \
 tree_species.sql \
 city.sql \
-tree_location.sql \
+location.sql \
 tree.sql \
 tree_age.sql \
 beacon.sql \

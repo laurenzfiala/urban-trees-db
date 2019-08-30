@@ -1,3 +1,5 @@
+create schema application; -- create new schema
+
 create schema tree_data; -- create new schema
 
 create schema access_data; -- create new schema

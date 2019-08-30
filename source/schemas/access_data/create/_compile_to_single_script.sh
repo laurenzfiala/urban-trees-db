@@ -8,6 +8,7 @@
 cat \
 api_key.sql \
 user.sql \
+user_permission.sql \
 role.sql \
 user_role.sql \
 settings.sql \
