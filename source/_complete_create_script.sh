@@ -12,6 +12,9 @@ sh _compile_to_single_script.sh
 cd ../schemas/access_data/create
 sh _compile_to_single_script.sh
 
+cd ../../application/create
+sh _compile_to_single_script.sh
+
 cd ../../tree_data/create
 sh _compile_to_single_script.sh
 
@@ -26,6 +29,7 @@ cd ../../../
 cat \
 setup/_urban_trees_setup_script.sql \
 schemas/access_data/create/_access_data_create_script.sql \
+schemas/access_data/create/_application_create_script.sql \
 schemas/tree_data/create/_tree_data_create_script.sql \
 schemas/ui/create/_ui_create_script.sql \
 schemas/user_data/create/_user_data_create_script.sql \
