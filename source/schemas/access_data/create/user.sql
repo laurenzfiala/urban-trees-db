@@ -13,6 +13,8 @@ create table access_data."user" (
     last_login_attempt_dat		timestamp not null default '01-01-2000',
     last_login_dat				timestamp null,
 	secure_login_key			varchar(100) null unique,
+	permissions_pin				varchar(20) null,
+	permissions_pin_attempts	integer not null default 0,
     --
     cre_dat						timestamp not null,
     mod_dat						timestamp not null,
