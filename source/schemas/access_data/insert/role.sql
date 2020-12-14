@@ -7,4 +7,4 @@ values
 (default, 'ROLE_ADMIN', true, now(), now(), user, user),
 (default, 'ROLE_PHENOBS', true, now(), now(), user, user),
 (default, 'ROLE_TREE_EDITOR', true, now(), now(), user, user),
-(default, 'ROLE_DIARY', true, now(), now(), user, user);
+(default, 'ROLE_JOURNAL', true, now(), now(), user, user);
