@@ -7,6 +7,7 @@ create table user_data."level" (
     user_id				integer references access_data."user"(id),
     xp					integer not null default 0,
     "action"			varchar(50) not null,
+	context				json null,
     --
     cre_dat				timestamp not null,
     cre_usr				varchar(20) not null
